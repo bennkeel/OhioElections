@@ -1,0 +1,1940 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45365",
+        "site": "https://www.boe.ohio.gov/shelby",
+        "county": "Shelby ",
+        "city": "Sidney",
+        "phone": "(937) 498-7207",
+        "state": "OH",
+        "address": "230 E. Court St.",
+        "google": "https://www.google.com/maps/dir//Shelby+County+Board-Elections,+230+E+Court+St,+Sidney,+OH+45365",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.153859,
+          40.284706
+        ],
+        "type": "Point"
+      },
+      "id": "00812bc03223ea332576981f40f8465e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43055",
+        "site": "https://www.boe.ohio.gov/licking/",
+        "county": "Licking ",
+        "city": "Newark",
+        "phone": "(740) 670-5080",
+        "state": "OH",
+        "address": "Don Hill Administration Building 20 S. Second St",
+        "google": "https://www.google.com/maps/dir//Licking+County+Board-Elections,+20+S+2nd+St,+Newark,+OH+43055",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.400064,
+          40.057749
+        ],
+        "type": "Point"
+      },
+      "id": "01f03ee97c391ed9100273f662b56c3d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43512",
+        "site": "https://www.defiance.boe.ohio.gov/",
+        "county": "Defiance ",
+        "city": "Defiance",
+        "phone": "(419) 782-8543",
+        "state": "OH",
+        "address": "1300 E. Second St., Suite 103",
+        "google": "https://www.google.com/maps/dir//Defiance+Board+of+Elections,+1300+E+2nd+St+%23+103,+Defiance,+OH+43512",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.341664,
+          41.283431
+        ],
+        "type": "Point"
+      },
+      "id": "029b36f7104d67d9dfb562066fa06470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45422",
+        "site": "https://www.montgomery.boe.ohio.gov/",
+        "county": "Montgomery ",
+        "city": "Dayton",
+        "phone": "(937) 225-5656",
+        "state": "OH",
+        "address": "451 W. Third St.",
+        "google": "https://www.google.com/maps/dir//Montgomery+Board+of+Elections,+451+W+3rd+St,+Dayton,+OH+45422",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.200368,
+          39.758516
+        ],
+        "type": "Point"
+      },
+      "id": "03bcd60fe8ef484f647427205a12411b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43311",
+        "site": "https://www.boe.ohio.gov/logan/",
+        "county": "Logan ",
+        "city": "Bellefontaine",
+        "phone": "(937) 599-7255",
+        "state": "OH",
+        "address": "225 S. Main St.",
+        "google": "https://www.google.com/maps/dir//Logan+County+Board+Of+Elections,+225+S+Main+St,+Bellefontaine,+OH+43311",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.759719,
+          40.358912
+        ],
+        "type": "Point"
+      },
+      "id": "0991cb718b112df340a4e23009828fbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45385",
+        "site": "https://www.greene.boe.ohio.gov",
+        "county": "Greene ",
+        "city": "Xenia,",
+        "phone": "",
+        "state": "OH",
+        "address": "551 Ledbetter Rd.",
+        "google": "https://www.google.com/maps/dir//County+of+Greene:+Board+of+Elections,+551+Ledbetter+Rd,+Xenia,+OH+45385",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.942838,
+          39.666408
+        ],
+        "type": "Point"
+      },
+      "id": "09f01db6bcbce696b15aaafa879ad5f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45690",
+        "site": "https://www.boe.ohio.gov/pike/",
+        "county": "Pike ",
+        "city": "Waverly",
+        "phone": "(740) 947-4512",
+        "state": "OH",
+        "address": "230 Waverly Plaza, Suite 1100",
+        "google": "https://www.google.com/maps/dir//Pike+County+Board+of+Election,+230+Waverly+Plaza+%23+1100,+Waverly,+OH+45690",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.976652,
+          39.132713
+        ],
+        "type": "Point"
+      },
+      "id": "0cd7b2a319868a8314c22737b742f7ad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45801",
+        "site": "https://www.allen.boe.ohio.gov/",
+        "county": "Allen ",
+        "city": "Lima",
+        "phone": "(419) 223-8530",
+        "state": "OH",
+        "address": "204 N. Main St.",
+        "google": "https://www.google.com/maps/dir//Allen+County+Board+of+Election,+204+N+Main+St+%23+L01,+Lima,+OH+45801",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.104502,
+          40.74165
+        ],
+        "type": "Point"
+      },
+      "id": "0e5136faff83891b4c3126eb58094b20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44691",
+        "site": "https://www.WayneCountyOH.gov",
+        "county": "Wayne ",
+        "city": "Wooster",
+        "phone": "(330) 287-5480",
+        "state": "OH",
+        "address": "200 Vanover St., Suite 1",
+        "google": "https://www.google.com/maps/dir//Wayne+County+Board-Elections,+200+Vanover+St,+Wooster,+OH+44691",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.947939,
+          40.796652
+        ],
+        "type": "Point"
+      },
+      "id": "1eca77852a96e03e2c5595c46cbbf0be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43793",
+        "site": "https://www.boe.ohio.gov/monroe/",
+        "county": "Monroe ",
+        "city": "Woodsfield",
+        "phone": "(740) 472-0929",
+        "state": "OH",
+        "address": "117 North Main Street, Suite 12",
+        "google": "https://www.google.com/maps/dir//117+N+Main+St+%2312,+Woodsfield,+OH+43793",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.115923,
+          39.763418
+        ],
+        "type": "Point"
+      },
+      "id": "237ab2a0d3deff74875bb6847d57914b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44820",
+        "site": "https://crawfordcountyohioboe.gov/",
+        "county": "Crawford ",
+        "city": "Bucyrus",
+        "phone": "(419) 562-8721",
+        "state": "OH",
+        "address": "112 East Mansfield St., Suite A",
+        "google": "https://www.google.com/maps/dir//112+E+Mansfield+St+a,+Bucyrus,+OH+44820",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.974653,
+          40.80924
+        ],
+        "type": "Point"
+      },
+      "id": "23c6715ea235a224efbc8b83e097cd24"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45638",
+        "site": "https://www.boe.ohio.gov/lawrence/",
+        "county": "Lawrence ",
+        "city": "Ironton",
+        "phone": "(740) 532-0444",
+        "state": "OH",
+        "address": "Veterans Square 111 S. Fourth St",
+        "google": "https://www.google.com/maps/dir//Lawrence+County+Board+of+Elections,+111+S+4th+St+%2333,+Ironton,+OH+45638",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.68381,
+          38.535879
+        ],
+        "type": "Point"
+      },
+      "id": "2d26af18ce603fe38c84dd06bc76abe9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44047",
+        "site": "https://www.boe.ohio.gov/ashtabula/",
+        "county": "Ashtabula ",
+        "city": "Jefferson",
+        "phone": "(440) 576-6915",
+        "state": "OH",
+        "address": "8 W. Walnut St. ",
+        "google": "https://www.google.com/maps/dir//Ashtabula+Board+of+Elections,+8+W+Walnut+St,+Jefferson,+OH+44047",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.769685,
+          41.740296
+        ],
+        "type": "Point"
+      },
+      "id": "2fb07f108c7bc499b9b9d356bd360e47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43545",
+        "site": "https://henrycountyohio.gov/boe/index.html",
+        "county": "Henry ",
+        "city": "Napoleon",
+        "phone": "(419) 592-7956",
+        "state": "OH",
+        "address": "1827 Oakwood Ave.",
+        "google": "https://www.google.com/maps/dir//Henry+County+Board+of+Election,+1827+Oakwood+Ave,+Napoleon,+OH+43545",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.122935,
+          41.40867
+        ],
+        "type": "Point"
+      },
+      "id": "37db1f37c16d1e015bb47be58f6442a7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45750",
+        "site": "https://www.boe.ohio.gov/washington",
+        "county": "Washington ",
+        "city": "Marietta",
+        "phone": "(740) 374-6828",
+        "state": "OH",
+        "address": "204 Davis Ave., Suite B",
+        "google": "https://www.google.com/maps/dir//204+Davis+Ave,+Marietta,+OH+45750",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.45572,
+          39.439424
+        ],
+        "type": "Point"
+      },
+      "id": "4283e4a03bbf81f92e643da45e3c62ee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45331",
+        "site": "https://www.boe.ohio.gov/darke/",
+        "county": "Darke ",
+        "city": "Greenville",
+        "phone": "(937) 548-1835",
+        "state": "OH",
+        "address": "300 Garst Ave., Suite 7",
+        "google": "https://www.google.com/maps/dir//Darke+County+Board+of+Elections,+300+Garst+Ave,+Greenville,+OH+45331",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.63399,
+          40.107831
+        ],
+        "type": "Point"
+      },
+      "id": "46fac05e259ecc7e2a38da07f61f5dbb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43701",
+        "site": "https://www.muskingumcountyoh.gov/Agencies/Board-Of-Elections/",
+        "county": "Muskingum ",
+        "city": "Zanesville",
+        "phone": "(740) 455-7120",
+        "state": "OH",
+        "address": "627 Market Street",
+        "google": "https://www.google.com/maps/dir//Muskingum+County+Elections,+205+N+7th+St,+Zanesville,+OH+43701",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.004062,
+          39.943712
+        ],
+        "type": "Point"
+      },
+      "id": "4cf54e358d430e9e1a593c484532c0eb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45769",
+        "site": "https://www.boe.ohio.gov/meigs/",
+        "county": "Meigs ",
+        "city": "Pomeroy",
+        "phone": "(740) 992-2697",
+        "state": "OH",
+        "address": "113 E. Memorial Dr., Suite A",
+        "google": "https://www.google.com/maps/dir//113+E+Memorial+Dr+a,+Pomeroy,+OH+45769",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.045224,
+          39.037985
+        ],
+        "type": "Point"
+      },
+      "id": "5133a9b6f3e5427fe74c8b12d165f808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43725",
+        "site": "https://boe.guernseycounty.gov/",
+        "county": "Guernsey ",
+        "city": "Cambridge",
+        "phone": "(740) 432-2680",
+        "state": "OH",
+        "address": "627 Wheeling Ave., Suite 101",
+        "google": "https://www.google.com/maps/dir//Guernsey+County+Board-Elections,+627+Wheeling+Ave+%23+101,+Cambridge,+OH+43725",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.592543,
+          40.024955
+        ],
+        "type": "Point"
+      },
+      "id": "5278beb061791a00b534095184012b21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45840",
+        "site": "https://hancockcountyohioelections.gov/",
+        "county": "Hancock ",
+        "city": "Rear Findlay",
+        "phone": "(419) 422-3245",
+        "state": "OH",
+        "address": "201 E. Lincoln St.",
+        "google": "https://www.google.com/maps/dir//Hancock+County+Board+of+Elections,+201+E+Lincoln+St,+Findlay,+OH+45840",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.64825,
+          41.034149
+        ],
+        "type": "Point"
+      },
+      "id": "54b9bf674af325abccd38ce386941145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44654",
+        "site": "https://www.boe.ohio.gov/holmes",
+        "county": "Holmes ",
+        "city": "Millersburg",
+        "phone": "(330) 674-5921",
+        "state": "OH",
+        "address": "75 E. Clinton St., Suite 108",
+        "google": "https://www.google.com/maps/dir//Holmes+County+Board-Elections,+75+E+Clinton+St+%23+108,+Millersburg,+OH+44654",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.916341,
+          40.554958
+        ],
+        "type": "Point"
+      },
+      "id": "588a61bd3133d0b9c994de066c41fa95"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44615",
+        "site": "https://www.carrollcountyohioelections.gov/",
+        "county": "Carroll ",
+        "city": "Carrollton",
+        "phone": "(330) 627-2610",
+        "state": "OH",
+        "address": "Courthouse 119 S. Lisbon St., Suite 102",
+        "google": "https://www.google.com/maps/dir//119+S+Lisbon+St+%23102,+Carrollton,+OH+44615",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.08627,
+          40.5721
+        ],
+        "type": "Point"
+      },
+      "id": "58a67be00d636b8b9212124d76bcd666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44484",
+        "site": "https://boe.co.trumbull.oh.gov/",
+        "county": "Trumbull ",
+        "city": "Warren",
+        "phone": "(330) 369-4050",
+        "state": "OH",
+        "address": "2947 Youngstown Rd., SE",
+        "google": "https://www.google.com/maps/dir//Trumbull+County+Election+Board,+2947+Youngstown+Rd+SE,+Warren,+OH+44484",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.781743,
+          41.221653
+        ],
+        "type": "Point"
+      },
+      "id": "5c84c467864a20a6b865d025de069b42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45640",
+        "site": "https://www.boe.ohio.gov/jackson/",
+        "county": "Jackson ",
+        "city": "Jackson",
+        "phone": "(740) 286-2905",
+        "state": "OH",
+        "address": "275 Portsmouth St., Suite 2",
+        "google": "https://www.google.com/maps/dir//Jackson+County+Board-Election,+275+Portsmouth+St+%23+2,+Jackson,+OH+45640",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.638746,
+          39.052596
+        ],
+        "type": "Point"
+      },
+      "id": "5d5e46ba5225292acfaeb98151ce2dda"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44055",
+        "site": "https://www.voteloraincountyohio.gov/",
+        "county": "Lorain ",
+        "city": "E Lorain",
+        "phone": "(440) 326-5900",
+        "state": "OH",
+        "address": "1985 North Ridge Rd.",
+        "google": "https://www.google.com/maps/dir//Lorain+County+Board+of+Elections,+1985+N+Ridge+Rd,+Lorain,+OH+44055",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.127083,
+          41.418808
+        ],
+        "type": "Point"
+      },
+      "id": "675620f3a0b345235efa09c79acd6b09"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44805",
+        "site": "https://boe.ashland.oh.gov/",
+        "county": "Ashland ",
+        "city": "Ashland",
+        "phone": "(419) 282-4224",
+        "state": "OH",
+        "address": "110 Cottage St., Suite 106",
+        "google": "https://www.google.com/maps/dir//Ashland+County+Board-Elections,+110+Cottage+St+%23+106,+Ashland,+OH+44805",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.546838,
+          38.795207
+        ],
+        "type": "Point"
+      },
+      "id": "67ebd1d99dc9d0e7a6daa55661f3b2e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45822",
+        "site": "https://elections.mercercountyohio.gov/",
+        "county": "Mercer ",
+        "city": "Celina",
+        "phone": "(419) 586-2215",
+        "state": "OH",
+        "address": "101 N. Main St., Room 107",
+        "google": "https://www.google.com/maps/dir//Mercer+Board+of+Elections,+101+N+Main+St+%23+107,+Celina,+OH+45822",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.571606,
+          40.549506
+        ],
+        "type": "Point"
+      },
+      "id": "681659932b03756121c4446e433b53dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45320",
+        "site": "https://www.boe.ohio.gov/preble/",
+        "county": "Preble ",
+        "city": "Eaton",
+        "phone": "(937) 456-8117",
+        "state": "OH",
+        "address": "Courthouse 101 E. Main St., 1st Floor",
+        "google": "https://www.google.com/maps/dir//Preble+County+Board+of+Elctns,+101+E+Main+St+%23105,+Eaton,+OH+45320",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.635857,
+          39.743524
+        ],
+        "type": "Point"
+      },
+      "id": "69c535261f111a58328f9c21ce6bd2a8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43764",
+        "site": "https://elections.perrycountyohio.gov",
+        "county": "Perry ",
+        "city": "New Lexington",
+        "phone": "(740) 342-2134",
+        "state": "OH",
+        "address": "200 S. Jackson St.",
+        "google": "https://www.google.com/maps/dir//Perry+County+Board-Elections,+200+S+Jackson+St,+New+Lexington,+OH+43764",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.206175,
+          39.713617
+        ],
+        "type": "Point"
+      },
+      "id": "6a6b00b126aa224469f71921633305de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45601",
+        "site": "https://www.boe.ohio.gov/ross/",
+        "county": "Ross ",
+        "city": "Chillicothe",
+        "phone": "(740) 775-2350",
+        "state": "OH",
+        "address": "475 Western Ave., Suite D",
+        "google": "https://www.google.com/maps/dir//Ross+County+Board+of+Elections,+475+Western+Ave+d,+Chillicothe,+OH+45601",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.003469,
+          39.335489
+        ],
+        "type": "Point"
+      },
+      "id": "6a7b33536a6b235ec32a1510ab58acb8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45036",
+        "site": "https://vote.warrencountyohio.gov/",
+        "county": "Warren ",
+        "city": "Lebanon",
+        "phone": "(513) 695-1358",
+        "state": "OH",
+        "address": "520 Justice Dr.",
+        "google": "https://www.google.com/maps/dir//Warren+County+Board+of+Elections,+520+Justice+Dr,+Lebanon,+OH+45036",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.199291,
+          39.423625
+        ],
+        "type": "Point"
+      },
+      "id": "7513b27c08eab33091151afa94eaa3af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44870",
+        "site": "https://www.boe.ohio.gov/erie/",
+        "county": "Erie ",
+        "city": "Sandusky",
+        "phone": "(419) 627-7601",
+        "state": "OH",
+        "address": "2900 Columbus Ave., Room 101",
+        "google": "https://www.google.com/maps/dir//Erie+County+Board+Of+Elections,+2900+Columbus+Ave+%23101,+Sandusky,+OH+44870",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.693409,
+          41.427031
+        ],
+        "type": "Point"
+      },
+      "id": "77d93e3f03cd724cd6c1669cf17e5c0c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45011",
+        "site": "https://elections.bcohio.gov/",
+        "county": "Butler ",
+        "city": "Hamilton",
+        "phone": "(513) 887-3700",
+        "state": "OH",
+        "address": "Princeton Road Campus 1802 Princeton Rd., Suite 600",
+        "google": "https://www.google.com/maps/dir//Butler+County+Elections+Board,+1802+Princeton+Rd,+Hamilton,+OH+45011",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.53745,
+          39.39362
+        ],
+        "type": "Point"
+      },
+      "id": "7a18138ad0cc563426a96c223d7caf7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44906",
+        "site": "https://vote.richlandcountyoh.gov",
+        "county": "Richland ",
+        "city": "Mansfield",
+        "phone": "(419) 774-5530",
+        "state": "OH",
+        "address": "1495 W. Longview Ave., Suite 101",
+        "google": "https://www.google.com/maps/dir//Richland+County+Elections+Board,+1495+W+Longview+Ave+%23101,+Mansfield,+OH+44906",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.562495,
+          40.775507
+        ],
+        "type": "Point"
+      },
+      "id": "7acdb5561580c080a449d83390ad1aa5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43756",
+        "site": "https://www.morgancounty-oh.gov/boe.html",
+        "county": "Morgan ",
+        "city": "McConnelsville",
+        "phone": "(740) 962-3116",
+        "state": "OH",
+        "address": "155 E. Main St., Room 157",
+        "google": "https://www.google.com/maps/dir//Morgan+County+Election+Board,+155+E+Main+St+%23157,+McConnelsville,+OH+43756",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.851305,
+          39.648905
+        ],
+        "type": "Point"
+      },
+      "id": "84058b657fbec762fb4d46789c0d0a8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45212",
+        "site": "https://votehamiltoncountyohio.gov/",
+        "county": "Hamilton ",
+        "city": "Cincinnati",
+        "phone": "(513) 732-7275",
+        "state": "OH",
+        "address": "4700 Smith Rd, Cincinnati OH, ",
+        "google": "https://www.google.com/maps/dir//Hamilton+County+Board+of+Elections,+4700+Smith+Rd,+Cincinnati,+OH+45212",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.452781,
+          39.16167
+        ],
+        "type": "Point"
+      },
+      "id": "84cf381b201b876bc44b8732b3767c7a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43724",
+        "site": "https://www.boe.ohio.gov/noble/",
+        "county": "Noble ",
+        "city": "Caldwell",
+        "phone": "(740) 732-2057",
+        "state": "OH",
+        "address": "140 Court House",
+        "google": "https://www.google.com/maps/dir//Noble+County+Board-Elections,+140+Courthouse,+Caldwell,+OH+43724",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.516158,
+          39.747308
+        ],
+        "type": "Point"
+      },
+      "id": "869f2b56000e5c22fbfba16fe3f3acf2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45103",
+        "site": "https://boe.clermontcountyohio.gov/",
+        "county": "Clermont ",
+        "city": "Batavia",
+        "phone": "(513) 732-7275",
+        "state": "OH",
+        "address": "76 S. Riverside Dr.",
+        "google": "https://www.google.com/maps/dir//Clermont+County+Board-Election,+76+S+Riverside+Dr,+Batavia,+OH+45103",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.179237,
+          39.077125
+        ],
+        "type": "Point"
+      },
+      "id": "89e5ecb7414ea820e8244972af238b92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44883",
+        "site": "https://www.boe.ohio.gov/seneca/",
+        "county": "Seneca ",
+        "city": "Tiffin",
+        "phone": "(419) 447-4424",
+        "state": "OH",
+        "address": "71 S. Washington St., Ste. 1101",
+        "google": "https://www.google.com/maps/dir//Seneca+County+Board-Elections,+71+S+Washington+St+%23+1101,+Tiffin,+OH+44883",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.176482,
+          41.115449
+        ],
+        "type": "Point"
+      },
+      "id": "8a8886a9e2b6227e6c3f7fd284384631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45891",
+        "site": "https://www.boe.ohio.gov/vanwert/",
+        "county": "Van Wert ",
+        "city": "Van Wert",
+        "phone": "(419) 238-4192",
+        "state": "OH",
+        "address": "1362 East Ervin Road",
+        "google": "https://www.google.com/maps/dir//Van+Wert+County+Election+Board,+120+E+Main+St,+Van+Wert,+OH+45891",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.561162,
+          40.858572
+        ],
+        "type": "Point"
+      },
+      "id": "974a796c8df2d831f2924c33d876dbc9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43015",
+        "site": "https://vote.delawarecountyohio.gov/",
+        "county": "Delaware ",
+        "city": "North Delaware",
+        "phone": "(740) 833-2080",
+        "state": "OH",
+        "address": "2079 U.S. HWY 23",
+        "google": "https://www.google.com/maps/dir//Delaware+County+Brd-Elections,+2079+U.S.+Hwy+23+N,+Delaware,+OH+43015",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.074521,
+          40.329427
+        ],
+        "type": "Point"
+      },
+      "id": "97896d42d7086d6703a795d763047178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43907",
+        "site": "https://www.boe.ohio.gov/harrison/",
+        "county": "Harrison ",
+        "city": "Cadiz",
+        "phone": "(740) 942-8866",
+        "state": "OH",
+        "address": "538 N. Main St., Suite B, Government Center",
+        "google": "https://www.google.com/maps/dir//Harrison+County+Election+Board,+538+N+Main+St+b,+Cadiz,+OH+43907",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.984513,
+          40.289841
+        ],
+        "type": "Point"
+      },
+      "id": "9994682b0221e561f31276df5c5040c3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43449",
+        "site": "https://boe.ottawa.oh.gov",
+        "county": "Ottawa ",
+        "city": "Oak Harbor",
+        "phone": "(419) 898-3071",
+        "state": "OH",
+        "address": "8444 W. State Route 163, Suite 101",
+        "google": "https://www.google.com/maps/dir//Ottawa+County+Board-Elections,+8444+W+State+Rte+163+%23101,+Oak+Harbor,+OH+43449",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.095544,
+          41.507646
+        ],
+        "type": "Point"
+      },
+      "id": "9ba065ce8e4ca0709fc2a23670a04399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43420",
+        "site": "https://sanduskycountyoh.gov/index.php?page=board-of-elections",
+        "county": "Sandusky ",
+        "city": "Fremont",
+        "phone": "(419) 334-6180",
+        "state": "OH",
+        "address": "2020 Countryside Dr.",
+        "google": "https://www.google.com/maps/dir//Board+of+Elections,+2020+Countryside+Dr,+Fremont,+OH+43420",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.086568,
+          41.358813
+        ],
+        "type": "Point"
+      },
+      "id": "9bacc3350c1ade54800f146efdcd3d74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43078",
+        "site": "https://www.boe.ohio.gov/champaign/",
+        "county": "Champaign ",
+        "city": "Urbana",
+        "phone": "(937) 484-1575",
+        "state": "OH",
+        "address": "1512 South U.S. Hwy 68, Suite L100",
+        "google": "https://www.google.com/maps/dir//Champaign+County+Board+Of+Elections,+1512+US-68,+Urbana,+OH+43078",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.75637,
+          40.09094
+        ],
+        "type": "Point"
+      },
+      "id": "9bf223d7d7d820967752189d2956e472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44311",
+        "site": "https://www.summitcountyboe.gov/",
+        "county": "Summit ",
+        "city": "Akron",
+        "phone": "(330) 643-5200",
+        "state": "OH",
+        "address": "470 Grant St. ",
+        "google": "https://www.google.com/maps/dir//Summit+County+Board-Elections,+470+Grant+St,+Akron,+OH+44311",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.518815,
+          41.070248
+        ],
+        "type": "Point"
+      },
+      "id": "9cf219ff0d1f76679dc65cb0f31cac2d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43160",
+        "site": "https://www.boe.ohio.gov/fayette/",
+        "county": "Fayette ",
+        "city": "Washington Court House",
+        "phone": "(740) 335-1190",
+        "state": "OH",
+        "address": "135 S. Main St.",
+        "google": "https://www.google.com/maps/dir//135+S+Main+St,+Washington+Court+House,+OH+43160",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.439789,
+          39.534728
+        ],
+        "type": "Point"
+      },
+      "id": "9cfa749b4bc846d3ff8895a51905f0af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43138",
+        "site": "https://www.boe.ohio.gov/hocking/",
+        "county": "Hocking ",
+        "city": "Logan",
+        "phone": "(740) 380-8683",
+        "state": "OH",
+        "address": "93 W. Hunter St",
+        "google": "https://www.google.com/maps/dir//Hocking+County+Board+of+Elections,+93+W+Hunter+St,+Logan,+OH+43138",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.410401,
+          39.541086
+        ],
+        "type": "Point"
+      },
+      "id": "9e0e2836d9e903338389cffef9b3fa9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43506",
+        "site": "https://www.williamscountyoh.gov/150/Board-of-Elections",
+        "county": "Williams ",
+        "city": "Bryan",
+        "phone": "(419) 636-1854",
+        "state": "OH",
+        "address": "1425 E. High St., Suite 104",
+        "google": "https://www.google.com/maps/dir//Williams+County+Election+Board,+1425+E+High+St+%23104,+Bryan,+OH+43506",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.529222,
+          41.477662
+        ],
+        "type": "Point"
+      },
+      "id": "9fd99cde449cdd4fed6abdb86c017598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43567",
+        "site": "https://www.boe.ohio.gov/fulton",
+        "county": "Fulton ",
+        "city": "Wauseon",
+        "phone": "(419) 335-6841",
+        "state": "OH",
+        "address": "135 Court House Plaza",
+        "google": "https://www.google.com/maps/dir//Fulton+County+Board+of+Elections,+135+Court+House+Plaza,+Wauseon,+OH+43567",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.141878,
+          41.545434
+        ],
+        "type": "Point"
+      },
+      "id": "a1427d4e9fac9e4c37a329f172d14a1f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43130",
+        "site": "https://www.fairfieldcountyohioelections.gov/",
+        "county": "Fairfield ",
+        "city": "Lancaster",
+        "phone": "(740) 652-7000",
+        "state": "OH",
+        "address": "951 Liberty Dr.",
+        "google": "https://www.google.com/maps/dir//Fairfield+County+Board+of+Elections,+951+Liberty+Dr,+Lancaster,+OH+43130",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.66406,
+          39.730414
+        ],
+        "type": "Point"
+      },
+      "id": "a8246a3f3644fb464df684d24e2b794c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43140",
+        "site": "https://www.boe.ohio.gov/madison/",
+        "county": "Madison ",
+        "city": "London",
+        "phone": "(740) 852-9424",
+        "state": "OH",
+        "address": "1423 State Route 38 SE",
+        "google": "https://www.google.com/maps/dir//Madison+County+Election+Board,+1423+OH-38,+London,+OH+43140",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.452562,
+          39.91508
+        ],
+        "type": "Point"
+      },
+      "id": "a8ae4e637f32049e770c74d5fa98b752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45701",
+        "site": "https://www.boe.ohio.gov/athens/",
+        "county": "Athens ",
+        "city": "Athens",
+        "phone": "(740) 592-3201",
+        "state": "OH",
+        "address": "15 S. Court St., Room 130",
+        "google": "https://www.google.com/maps/dir//Athens+County+Board-Elections,+15+S+Court+St+%23130,+Athens,+OH+45701",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.101439,
+          39.328691
+        ],
+        "type": "Point"
+      },
+      "id": "ab3ea3955b97f0061ce73b622e99c6c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43326",
+        "site": "https://www.boe.ohio.gov/hardin/",
+        "county": "Hardin ",
+        "city": "Kenton",
+        "phone": "(419) 674-2211",
+        "state": "OH",
+        "address": "One Court House Sq., Suite 40",
+        "google": "https://www.google.com/maps/dir//Hardin+Board+of+Election,+1+Court+House+Sq+%23+40,+Kenton,+OH+43326",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.608645,
+          40.647734
+        ],
+        "type": "Point"
+      },
+      "id": "b2163efcf1d57a5b7698001256f9c4c1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44266",
+        "site": "https://www.portagecounty-oh.gov/board-elections",
+        "county": "Portage ",
+        "city": "Ravenna",
+        "phone": "(330) 297-3511",
+        "state": "OH",
+        "address": "449 S. Meridian St.",
+        "google": "https://www.google.com/maps/dir//Portage+Board+of+Elections,+449+S+Meridian+St+%23+101,+Ravenna,+OH+44266",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.244297,
+          41.152746
+        ],
+        "type": "Point"
+      },
+      "id": "b24c80e0407ca3489df175935d0e73f5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45875",
+        "site": "https://www.boe.ohio.gov/putnam",
+        "county": "Putnam ",
+        "city": "Ottawa",
+        "phone": "(419) 538-6850",
+        "state": "OH",
+        "address": "575 Ottawa-Glandorf Road, Suite 2",
+        "google": "https://www.google.com/maps/dir//Putnam+County+Board+of+Election,+575+Ottawa-Glandorf+Rd,+Ottawa,+OH+45875",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.064095,
+          41.021678
+        ],
+        "type": "Point"
+      },
+      "id": "b45d8c4adbb97482a8e0f12208d7d40b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45651",
+        "site": "https://www.boe.ohio.gov/vinton/",
+        "county": "Vinton ",
+        "city": "McArthur",
+        "phone": "(740) 596-5855",
+        "state": "OH",
+        "address": "Community Building 31935 SR 93",
+        "google": "https://www.google.com/maps/dir//Vinton+County+Board+of+Elections,+31935+OH-93+%231,+McArthur,+OH+45651",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.477357,
+          39.261218
+        ],
+        "type": "Point"
+      },
+      "id": "b82a571e007a0ca0fe98c7fec14d2d2e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45879",
+        "site": "https://www.boe.ohio.gov/paulding",
+        "county": "Paulding ",
+        "city": "Paulding",
+        "phone": "(419) 399-8230",
+        "state": "OH",
+        "address": "105 E. Perry St.",
+        "google": "https://www.google.com/maps/dir//Paulding+County+Election+Board,+105+E+Perry+St,+Paulding,+OH+45879",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.580401,
+          41.13733
+        ],
+        "type": "Point"
+      },
+      "id": "bd259ee02c8aeed419ef0f55a08536f3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45631",
+        "site": "https://www.boe.ohio.gov/gallia",
+        "county": "Gallia ",
+        "city": "Gallipolis",
+        "phone": "(740) 446-1600",
+        "state": "OH",
+        "address": "Courthouse 18 Locust St., 2nd Floor",
+        "google": "https://www.google.com/maps/dir//Gallia+County+Board-Elections,+18+Locust+St,+Gallipolis,+OH+45631",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.203565,
+          38.808991
+        ],
+        "type": "Point"
+      },
+      "id": "bd891d0d582c9079de76e8bce2752c76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44024",
+        "site": "https://boelections.geauga.oh.gov",
+        "county": "Geauga ",
+        "city": "Chardon",
+        "phone": "(440) 279-2030",
+        "state": "OH",
+        "address": "470 Center St. - Building 6A",
+        "google": "https://www.google.com/maps/dir//Geauga+County%2FMicrofilm+Board,+470+Center+St+%23+6A,+Chardon,+OH+44024",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.224302,
+          41.591407
+        ],
+        "type": "Point"
+      },
+      "id": "c56bbc17255285da4b72b5a2fe034b64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43952",
+        "site": "https://www.boe.ohio.gov/jefferson/",
+        "county": "Jefferson ",
+        "city": "Steubenville",
+        "phone": "(740) 283-8522",
+        "state": "OH",
+        "address": "500 Market St., Fl. 1, Ste. 1",
+        "google": "https://www.google.com/maps/dir//500+Market+St+%231,+Steubenville,+OH+43952",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.616786,
+          40.360227
+        ],
+        "type": "Point"
+      },
+      "id": "c5a1c3662b4b41db5699fc304bd5a0e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43812",
+        "site": "https://www.coshocton.boe.ohio.gov",
+        "county": "Coshocton ",
+        "city": "Coshocton",
+        "phone": "(740) 622-1117",
+        "state": "OH",
+        "address": "724 S. 7th St., Room 100",
+        "google": "https://www.google.com/maps/dir//Coshocton+Board+of+Election,+724+S+7th+St,+Coshocton,+OH+43812",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.85888,
+          40.266503
+        ],
+        "type": "Point"
+      },
+      "id": "c661274d41bb0db0b7d426e8e55cc273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43050",
+        "site": "http://boe.knoxcounty.oh.gov/",
+        "county": "Knox ",
+        "city": "Mt. Vernon",
+        "phone": "(740) 393-6716",
+        "state": "OH",
+        "address": "104 East Sugar St",
+        "google": "http://www.google.com/maps/dir//104+E+Sugar+St,+Mt+Vernon,+OH+43050",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.483181,
+          40.394696
+        ],
+        "type": "Point"
+      },
+      "id": "c848e395843d3bb7f4be68b32e62a0ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44115",
+        "site": "https://boe.cuyahogacounty.gov",
+        "county": "Cuyahoga ",
+        "city": "Cleveland",
+        "phone": "(216) 443-8683",
+        "state": "OH",
+        "address": "2925 Euclid Ave.",
+        "google": "https://www.google.com/maps/dir//Cuyahoga+County+Board+of+Elections,+2925+Euclid+Ave,+Cleveland,+OH+44115",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.667597,
+          41.50301
+        ],
+        "type": "Point"
+      },
+      "id": "c8f6bc559507ef70f8b113f743415922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45121",
+        "site": "https://www.boe.ohio.gov/brown/",
+        "county": "Brown ",
+        "city": "Georgetown",
+        "phone": "(937) 378-3008",
+        "state": "OH",
+        "address": "Administration Building 800 Mt. Orab Pike, Suite 111",
+        "google": "https://www.google.com/maps/dir//Brown+County+Board-Elections,+800+Mt+Orab+Pike+%23+101,+Georgetown,+OH+45121",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.900972,
+          38.875424
+        ],
+        "type": "Point"
+      },
+      "id": "c9c1cc89b4a04e2f5be741f6c1dd9fba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44432",
+        "site": "https://www.columbiana.boe.ohio.gov/",
+        "county": "Columbiana ",
+        "city": "Lisbon",
+        "phone": "(330) 424-1448",
+        "state": "OH",
+        "address": "7989 Dickey Dr., Suite 3",
+        "google": "https://www.google.com/maps/dir//Columbiana+County+Board+of+Elections,+7989+Dickey+Dr,+Lisbon,+OH+44432",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.77403,
+          40.78648
+        ],
+        "type": "Point"
+      },
+      "id": "cce8781e0814daa8e2805abf7a2980a1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43351",
+        "site": "https://wyandotboardofelectionsohio.gov/",
+        "county": "Wyandot ",
+        "city": "Upper Sandusky",
+        "phone": "(419) 294-1226",
+        "state": "OH",
+        "address": "350 North Warpole Street",
+        "google": "https://www.google.com/maps/dir//Wyandot+County+Board-Election,+109+S+Sandusky+Ave+%23+12,+Upper+Sandusky,+OH+43351"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.291225,
+          40.833175
+        ],
+        "type": "Point"
+      },
+      "id": "ce33957729b6c2c6f47c2763978b4b0b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43040",
+        "site": "https://www.unioncountyohio.gov/board-of-elections",
+        "county": "Union ",
+        "city": "Marysville",
+        "phone": "(937) 642-2836",
+        "state": "OH",
+        "address": "835 East Fifth Street, Suite A",
+        "google": "https://www.google.com/maps/dir//Union+County+Board-Elections,+835+E+5th+St+A,+Marysville,+OH+43040",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.354811,
+          40.234897
+        ],
+        "type": "Point"
+      },
+      "id": "cea48e95fca4a72cfd28ff61b64fa379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43338",
+        "site": "https://morrowcountyohio.gov/index.php/2013-01-11-19-24-05/board-of-elections",
+        "county": "Morrow ",
+        "city": "Mt. Gilead",
+        "phone": "(419) 946-4026",
+        "state": "OH",
+        "address": "619 W. Marion Rd., Room 146",
+        "google": "https://www.google.com/maps/dir//Morrow+County+Board-Elections,+619+W+Marion+St+%23146,+Mt+Gilead,+OH+43338",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.848857,
+          40.54798
+        ],
+        "type": "Point"
+      },
+      "id": "d0bdf1b57989f87a90e3aebf5b5c9904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44857",
+        "site": "https://www.huron.boe.ohio.gov",
+        "county": "Huron ",
+        "city": "Norwalk",
+        "phone": "(419) 668-8238",
+        "state": "OH",
+        "address": "180 Milan Ave., Suite 4",
+        "google": "https://www.google.com/maps/dir//Huron+Board+of+Elections,+180+Milan+Ave+%23+4,+Norwalk,+OH+44857",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.611482,
+          41.256598
+        ],
+        "type": "Point"
+      },
+      "id": "d194b1968276e9b7999b863ef4d7a717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44077",
+        "site": "https://www.lakecountyohio.gov/lakeelections",
+        "county": "Lake ",
+        "city": "Painesville",
+        "phone": "(440) 350-2700",
+        "state": "OH",
+        "address": "105 Main St., Suite 107",
+        "google": "https://www.google.com/maps/dir//Lake+County+Election+Board,+105+Main+St,+Painesville,+OH+44077",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.243262,
+          41.72566
+        ],
+        "type": "Point"
+      },
+      "id": "d444e9664727e8c0677f97a2c95e1808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43229",
+        "site": "https://vote.franklincountyohio.gov/",
+        "county": "Franklin ",
+        "city": "Columbus",
+        "phone": "(614) 525-3470",
+        "state": "OH",
+        "address": "1700 Morse Road",
+        "google": "https://www.google.com/maps/dir//Franklin+County+Board+of+Elections,+1700+Morse+Rd,+Columbus,+OH+43229",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.973555,
+          40.061211
+        ],
+        "type": "Point"
+      },
+      "id": "db040b22a406f6a407c4b7089e7de717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43950",
+        "site": "https://www.boe.ohio.gov/belmont/",
+        "county": "Belmont ",
+        "city": "St. Clairsville",
+        "phone": "(740) 526-0188",
+        "state": "OH",
+        "address": "52180 National Road, PO Box 994",
+        "google": "https://www.google.com/maps/dir//Belmont+County+Election+Board,+103+Plaza+Dr+B,+St+Clairsville,+OH+43950",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.846392,
+          40.070737
+        ],
+        "type": "Point"
+      },
+      "id": "dbefd73dbdf51c3235f44d1a9c45d56a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43302",
+        "site": "https://www.boe.ohio.gov/marion",
+        "county": "Marion ",
+        "city": "Marion",
+        "phone": "(740) 223-4090",
+        "state": "OH",
+        "address": "222 W. Center St.",
+        "google": "https://www.google.com/maps/dir//Marion+County+Board-Elections,+222+W+Center+St,+Marion,+OH+43302",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.13259,
+          40.58883
+        ],
+        "type": "Point"
+      },
+      "id": "de48ea6292567099a62a9db9daaa127e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44502",
+        "site": "https://vote.mahoningcountyoh.gov",
+        "county": "Mahoning ",
+        "city": "Youngstown",
+        "phone": "(330) 783-2474",
+        "state": "OH",
+        "address": "345 Oak Hill Ave. Entrance A",
+        "google": "https://www.google.com/maps/dir//345+Oak+Hill+Ave,+Youngstown,+OH+44502",
+        "image": "https://vote.mahoningcountyoh.gov/ImageRepository/Document?documentID=1715"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.659035,
+          41.096372
+        ],
+        "type": "Point"
+      },
+      "id": "dff74d6c18f45d2141cdc1446d3d974b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45895",
+        "site": "https://www.boe.ohio.gov/auglaize",
+        "county": "Auglaize ",
+        "city": "Wapakoneta",
+        "phone": "(419) 739-6720",
+        "state": "OH",
+        "address": "209 S. Blackhoof, Room 205",
+        "google": "https://www.google.com/maps/dir//Auglaize+County+Election+Board,+209+S+Blackhoof+St+%23+205,+Wapakoneta,+OH+45895",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.196958,
+          40.568269
+        ],
+        "type": "Point"
+      },
+      "id": "e0f7de6b83ed6252f9730511630a0681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44256",
+        "site": "https://www.boe.ohio.gov/medina",
+        "county": "Medina ",
+        "city": "Medina",
+        "phone": "(330) 722-9278",
+        "state": "OH",
+        "address": "3800 Stonegate Drive, Suite C",
+        "google": "https://www.google.com/maps/dir//Medina+County+Board-Elections,+3800+Stonegate+Dr,+Medina,+OH+44256",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.858517,
+          41.16433
+        ],
+        "type": "Point"
+      },
+      "id": "e68ae19b16ba6c290e02c49130c07b44"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43402",
+        "site": "http://www.woodcountyohio.gov/boe",
+        "county": "Wood ",
+        "city": "Bowling Green",
+        "phone": "(419) 354-9120",
+        "state": "OH",
+        "address": "1 Court House Sq.",
+        "google": "https://www.google.com/maps/dir//Wood+County+Board+of+Elections,+1+Court+House+Square,+Bowling+Green,+OH+43402",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.64788,
+          41.376953
+        ],
+        "type": "Point"
+      },
+      "id": "eccb9d8abc7859e0628a07b75cbb006b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45505",
+        "site": "https://www.boe.ohio.gov/clark/",
+        "county": "Clark ",
+        "city": "Springfield",
+        "phone": "(937) 521-2120",
+        "state": "OH",
+        "address": "3130 E. Main St.",
+        "google": "https://www.google.com/maps/dir//Clark+County+Board+of+Elections,+3130+East+Main+Street,+Springfield,+OH+45505",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.78636,
+          39.92334
+        ],
+        "type": "Point"
+      },
+      "id": "f43b9028c360f08e8c7b9728f999d041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44663",
+        "site": "https://www.boe.ohio.gov/tuscarawas/",
+        "county": "Tuscarawas ",
+        "city": "New Philadelphia",
+        "phone": "(330) 343-8819",
+        "state": "OH",
+        "address": "Courthouse Square 101 E. High Ave.",
+        "google": "https://www.google.com/maps/dir//Board+of+Elections,+101+E+High+Ave,+New+Philadelphia,+OH+44663",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.445059,
+          40.490032
+        ],
+        "type": "Point"
+      },
+      "id": "f5c93ecdc71cae4ce10150e5912e102d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45133",
+        "site": "https://www.boe.ohio.gov/highland/",
+        "county": "Highland ",
+        "city": "Hillsboro",
+        "phone": "(937) 393-9961",
+        "state": "OH",
+        "address": "1575 N. High St., Suite 200",
+        "google": "https://www.google.com/maps/dir//Highland+Board+of+Election,+1575+N+High+St+%23+200,+Hillsboro,+OH+45133",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.609416,
+          39.238268
+        ],
+        "type": "Point"
+      },
+      "id": "f6db65b9ec266e7e8b3e3c10753e26b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45373",
+        "site": "https://www.boe.ohio.gov/miami/",
+        "county": "Miami ",
+        "city": "Troy",
+        "phone": "(937) 440-3900",
+        "state": "OH",
+        "address": "Courthouse 215 W. Main St.",
+        "google": "https://www.google.com/maps/dir//Miami+County+Board+of+Elections,+215+W+Main+St,+Troy,+OH+45373",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -84.205352,
+          40.041127
+        ],
+        "type": "Point"
+      },
+      "id": "f77f805347692fbbbd7bcc8f12c5c533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43604",
+        "site": "https://www.lucascountyohiovotes.gov",
+        "county": "Lucas ",
+        "city": "Toledo",
+        "phone": "(419) 213-4001",
+        "state": "OH",
+        "address": "veterans Square 111 S. Fourth St",
+        "google": "https://www.google.com/maps/dir//Lucas+County+Board-Elections,+1+Government+Ctr+%23+300,+Toledo,+OH+43604",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.53491,
+          41.655392
+        ],
+        "type": "Point"
+      },
+      "id": "f9b6e01d05446cad5494818d51f15ce6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45693",
+        "site": "https://www.boe.ohio.gov/adams/",
+        "county": "Adams ",
+        "city": "West Union",
+        "phone": "(937) 544-2633",
+        "state": "OH",
+        "address": "110 Cottage St., Suite 106",
+        "google": "https://www.google.com/maps/dir//Adams+County+Board-Elections,+215+N+Cross+St+%23+103,+West+Union,+OH+45693",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.546838,
+          38.795207
+        ],
+        "type": "Point"
+      },
+      "id": "fa0e36bcab4d7b637d5a04a5d5e638a1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45177",
+        "site": "https://www.boe.ohio.gov/clinton/",
+        "county": "Clinton ",
+        "city": "Wilmington",
+        "phone": "(937) 382-3537",
+        "state": "OH",
+        "address": "111 S. Nelson Ave., Suite 4",
+        "google": "https://g.page/ClintonCountyBOE?share",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.852216,
+          39.443096
+        ],
+        "type": "Point"
+      },
+      "id": "fbab259c59e9dad29bc8cb8609cf8702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "44705",
+        "site": "https://www.starkcountyohio.gov/board-of-elections/",
+        "county": "Stark ",
+        "city": "Canton",
+        "phone": "(330) 451-8683",
+        "state": "OH",
+        "address": "3525 Regent Ave. NE",
+        "google": "https://www.google.com/maps/dir//Stark+County+Board+of+Election,+3525+Regent+Ave+NE,+Canton,+OH+44705",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -81.335837,
+          40.834506
+        ],
+        "type": "Point"
+      },
+      "id": "fc47b9e813ec2b6d2e5f8f53906f21f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "45662",
+        "site": "https://www.boe.ohio.gov/scioto/",
+        "county": "Scioto ",
+        "city": "Portsmouth",
+        "phone": "(740) 353-4178",
+        "state": "OH",
+        "address": "602 7th St., Rm 105",
+        "google": "https://www.google.com/maps/dir//602+7th+St+%23105,+Portsmouth,+OH+45662",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.00017,
+          38.735277
+        ],
+        "type": "Point"
+      },
+      "id": "fe261de2bc04b52045cefc9096377004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zip": "43113",
+        "site": "https://www.boe.ohio.gov/pickaway/",
+        "county": "Pickaway ",
+        "city": "Circleville",
+        "phone": "(740) 474-1100",
+        "state": "OH",
+        "address": "141 W. Main St., Suite 800",
+        "google": "https://www.google.com/maps/dir//Pickaway+County+Elections+Brd,+141+W+Main+St+%23800,+Circleville,+OH+43113",
+        "image": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -82.946791,
+          39.602272
+        ],
+        "type": "Point"
+      },
+      "id": "ff79ee941efa6fee927ffd1122cad9d4"
+    }
+  ],
+  "type": "FeatureCollection"
+}
