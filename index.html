@@ -1,1 +1,411 @@
-<h1>hello~</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ohio Ballot Dropboxes</title>
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+
+	<style type="text/css">
+		body {
+		  color: #404040;
+		  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+		  margin: 0;
+		  padding: 0;
+		  -webkit-font-smoothing: antialiased;
+		}
+
+		* {
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+
+		h1 {
+		  
+		  color: #fff;
+		  font-size: 24px;
+		  margin: 0;
+		  font-weight: 400;
+		  line-height: 20px;
+		  padding: 20px 2px;
+		  
+		}
+
+		a {
+		  color: #00CCFF;
+		  text-decoration: none;
+		}
+
+		a:hover {
+		  color: #999999;
+		}
+
+		.sidebar {
+		  position: absolute;
+		  width: 20%;
+		  height: 100%;
+		  top: 0;
+		  left: 0;
+		  overflow: hidden;
+		  border-right: 1px solid rgba(0, 0, 0, 0.25);
+		}
+
+		.pad2 {
+		  padding: 20px;
+		}
+
+		.map {
+		  position: absolute;
+		  left: 20%;
+		  width: 80%;
+		  top: 0;
+		  bottom: 0;
+		}
+
+		.heading {
+		  background: #004677;
+		  border-bottom: 1px solid #eee;
+		  height: 60px;
+		  line-height: 60px;
+		  padding: 0 10px;
+		}
+
+		.listings {
+		  height: 100%;
+		  overflow: auto;
+		  padding-bottom: 60px;
+		}
+
+		.listings .item {
+		  display: block;
+		  border-bottom: 1px solid #eee;
+		  padding: 15px;
+		  text-decoration: none;
+		}
+
+		.listings .item:last-child { border-bottom: none; }
+
+		.listings .item .title {
+		  font-size: 18px;
+		  display: block;
+		  color: #004677;
+		  font-weight: 700;
+		}
+
+		.listings .item .title small { font-weight: 400; }
+
+		.listings .item.active .title,
+		.listings .item .title:hover { color: #6699CC; }
+
+		.listings .item.active {
+		  background-color: #f8f8f8;
+		}
+
+		::-webkit-scrollbar {
+		  width: 3px;
+		  height: 3px;
+		  border-left: 0;
+		  background: rgba(0, 0, 0, 0.1);
+		}
+
+		::-webkit-scrollbar-track {
+		  background: none;
+		}
+
+		::-webkit-scrollbar-thumb {
+		  background: #004677;
+		  border-radius: 0;
+		}
+
+		.clearfix { display: block; }
+
+		.clearfix::after {
+		  content: '.';
+		  display: block;
+		  height: 0;
+		  clear: both;
+		  visibility: hidden;
+		}
+		
+		/* MARKER TWEAKS */
+		.mapboxgl-popup {
+		  padding-bottom: 50px;
+		}
+
+		.mapboxgl-popup-close-button {
+		  display: none;
+		}
+
+		.mapboxgl-popup-content {
+		  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+		  padding:0;
+		  padding-bottom: 10px;
+		  width: 200px;
+		}
+
+		.mapboxgl-popup-content h3 {
+		  background: #004677;
+		  color: #fff;
+		  margin: 0;
+		  display: block;
+		  padding: 10px;
+		  border-radius: 3px 3px 0 0;
+		  font-weight: 700;
+		  margin-top: -15px;
+		}
+
+		.mapboxgl-popup-content h4 {
+		  margin: 0;
+		  display: block;
+		  padding: 10px;
+		  font-weight: 400;
+		}
+
+		.mapboxgl-popup-content a {
+		  padding: 10px;
+		  color: #00CCFF;
+		  font-weight: 400;
+		}
+
+		.mapboxgl-popup-content div {
+		  padding: 10px;
+		  padding-bottom: 20px;
+		}
+
+		.mapboxgl-container .leaflet-marker-icon {
+		  cursor: pointer;
+		}
+
+		.mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+		  margin-top: 15px;
+		}
+
+		.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+		  border-bottom-color: #91c949;
+		}
+		
+		.marker {
+		  border: none;
+		  cursor: pointer;
+		  height: 56px;
+		  width: 56px;
+		  background-image: url(marker.png);
+		  background-color: rgba(0, 0, 0, 0);
+		}
+
+		img {
+			width: 90%;
+			padding-top: 10px;
+		}
+	</style>
+
+</head>
+	<body>
+		<div class='sidebar'>
+			<div class='heading'>
+				<h1>Dropbox Locations</h1>
+	  		</div>
+	 		<div id='listings' class='listings'></div>
+	 	</div>
+		
+		<div id='map' class='map'></div>
+		
+	<script>	
+		/* This will let you use the .remove() function later on */
+		if (!('remove' in Element.prototype)) {
+		  	Element.prototype.remove = function() {
+		    if (this.parentNode) {
+		      this.parentNode.removeChild(this);
+		    }
+		  };
+		}
+
+		mapboxgl.accessToken = 'pk.eyJ1Ijoia2VlbGJuIiwiYSI6ImNqaWVseGZjZzA3emMzdnAxM296OTFjNG8ifQ.W2j9Y2mz4t6vGRyKJk_Nyw';
+
+		var map = new mapboxgl.Map({
+		  container: 'map',
+		  style: 'mapbox://styles/keelbn/ckg10svh20tn119o7d6owrgs4',
+		  center: [-82.369, 40.106],
+		  zoom: 6.85
+		});
+
+		/* DATA GOES HERE */
+		var boxes
+		const url = "https://bennkeel.github.io/OhioElections/OH-BOE-Locations.geojson";
+
+		const updateUISuccess = function(data) {
+			const parsedData = JSON.parse(data);
+			console.log(parsedData);
+			boxes = parsedData
+			boxes.features.forEach(function(box, i){
+				box.properties.id = i;
+			});
+
+			map.on('load', function (e) {
+				/* Add the data to your map as a layer */
+				map.addSource('places', {
+				"type": 'geojson',
+				"data": "https://bennkeel.github.io/OhioElections/OH-BOE-Locations.geojson"
+				});
+				buildLocationList(boxes);
+				addMarkers();
+			});
+
+				function addMarkers() {
+				/* For each feature in the GeoJSON object above: */
+				boxes.features.forEach(function(marker) {
+					/* Create a div element for the marker. */
+					var el = document.createElement('div');
+					/* Assign a unique `id` to the marker. */
+					el.id = "marker-" + marker.properties.id;
+					/* Assign the `marker` class to each marker for styling. */
+					el.className = 'marker';
+					
+					/**
+					* Create a marker using the div element
+					* defined above and add it to the map.
+					**/
+					new mapboxgl.Marker(el, { offset: [0, -23] })
+					.setLngLat(marker.geometry.coordinates)
+					.addTo(map);
+
+					el.addEventListener('click', function(e){
+					/* Fly to the point */
+					flyToBox(marker);
+					/* Close all other popups and display popup for clicked box */
+					createPopUp(marker);
+					/* Highlight listing in sidebar */
+					var activeItem = document.getElementsByClassName('active');
+					e.stopPropagation();
+					if (activeItem[0]) {
+						activeItem[0].classList.remove('active');
+					}
+					var listing = document.getElementById('listing-' + marker.properties.id);
+					listing.classList.add('active');
+					});
+				});
+				}
+
+				function buildLocationList(data) {
+					data.features.sort( function( a, b ) {
+						a = a.properties.county;
+						b = b.properties.county;
+
+						return a < b ? -1 : a > b ? 1 : 0;
+					});
+					data.features.forEach(function(box, i){
+						/**
+						* Create a shortcut for `boxes.properties`,
+						* which will be used several times below.
+						**/
+						
+						var prop = box.properties;
+						/* Add a new listing section to the sidebar. */
+						var listings = document.getElementById('listings');
+						var listing = listings.appendChild(document.createElement('div'));
+						/* Assign a unique `id` to the listing. */
+						listing.id = "listing-" + prop.id;
+						/* Assign the `item` class to each listing for styling. */
+						listing.className = 'item';
+
+						/* Add the link to the individual listing created above. */
+						var link = listing.appendChild(document.createElement('a'));
+						link.href = '#';
+						link.className = 'title';
+						link.id = "link-" + prop.id;
+						link.innerHTML = prop.county + " County";
+
+						/* Add details to the individual listing. */
+						var details = listing.appendChild(document.createElement('div'));
+						details.innerHTML = prop.city + `, <a href='${prop.site}' target="_blank">Board of Elections</a>`
+						/* if (prop.phone) {
+						details.innerHTML += ' · ' + prop.phone;
+						} */
+
+						link.addEventListener('click', function(e){
+							for (var i=0; i < data.features.length; i++) {
+								if (this.id === "link-" + data.features[i].properties.id) {
+									var clickedListing = data.features[i];
+									flyToBox(clickedListing);
+									createPopUp(clickedListing);
+									console.log(clickedListing)
+									//addListingDetails(clickedListing);
+								}
+							}
+
+							if (prop.image) {
+								details.innerHTML += `<img src=${prop.image} alt="Dropbox Location Image">`;
+							}
+
+							var activeItem = document.getElementsByClassName('active');
+							if (activeItem[0]) {
+								activeItem[0].classList.remove('active');
+							}
+							this.parentNode.classList.add('active');
+
+
+						});
+					});
+				}
+
+				/* Flying to the location */	
+				function flyToBox(currentFeature) {
+					map.flyTo({
+						center: currentFeature.geometry.coordinates,
+						zoom: 11
+					});
+
+				}
+
+				/* Creating a Pop Up */	
+				function createPopUp(currentFeature) {
+					var popUps = document.getElementsByClassName('mapboxgl-popup');
+					/** Check if there is already a popup on the map and if so, remove it */
+					if (popUps[0]) popUps[0].remove();
+					var address = `${currentFeature.properties.address}, ${currentFeature.properties.city}, OH 
+						${currentFeature.properties.zip}`
+
+					var popup = new mapboxgl.Popup({ closeOnClick: false })
+						.setLngLat(currentFeature.geometry.coordinates)
+						.setHTML(`<h3>${currentFeature.properties.county} County <br> Board of Elecitons</h3>` +
+						`<h4>${address}</h4>` + `<a href='${currentFeature.properties.google}' target="_blank">Google Maps Directions</a>`)
+						.addTo(map);
+				}
+
+				function addListingDetails(currentFeature){
+					var scroll = 
+					$('html, body').animate({
+    					scrollTop: $().offset().top
+					}, 1000);
+				}
+		};
+
+		const updateUIError = function(error) {
+			console.log(error);
+		};
+
+		const responseMethod = function(httpRequest) {
+			if (httpRequest.readyState === 4) {
+				if (httpRequest.status === 200) {
+					updateUISuccess(httpRequest.responseText);
+				} else {
+					updateUIError(httpRequest.status + ': ' + httpRequest.responseText);
+				}
+			}
+		};
+
+		const createRequest = function(url){
+			const httpRequest = new XMLHttpRequest(url);
+			httpRequest.addEventListener('readystatechange', (url) => responseMethod(httpRequest));
+			httpRequest.open('GET', url);
+			httpRequest.send();
+		};
+			
+		createRequest(url)
+
+		
+
+		</script>
+	</body>
+</html>
