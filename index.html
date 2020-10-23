@@ -43,7 +43,7 @@
 
 		.sidebar {
 		  position: absolute;
-		  width: 20%;
+		  width: 34%;
 		  height: 100%;
 		  top: 0;
 		  left: 0;
@@ -57,8 +57,8 @@
 
 		.map {
 		  position: absolute;
-		  left: 20%;
-		  width: 80%;
+		  left: 34%;
+		  width: 66%;
 		  top: 0;
 		  bottom: 0;
 		}
@@ -66,13 +66,14 @@
 		.heading {
 		  background: #004677;
 		  border-bottom: 1px solid #eee;
-		  height: 60px;
+		  height: 8%;
 		  line-height: 60px;
 		  padding: 0 10px;
 		}
 
 		.listings {
-		  height: 100%;
+		  height: 90%;
+		  bottom: 100%;
 		  overflow: auto;
 		  padding-bottom: 60px;
 		}
@@ -190,7 +191,7 @@
 		  cursor: pointer;
 		  height: 56px;
 		  width: 56px;
-		  background-image: url(Marker.png);
+		  background-image: url("Marker.png");
 		  background-color: rgba(0, 0, 0, 0);
 		}
 
@@ -226,14 +227,14 @@
 		var map = new mapboxgl.Map({
 		  container: 'map',
 		  style: 'mapbox://styles/keelbn/ckg10svh20tn119o7d6owrgs4',
-		  center: [-82.369, 40.106],
-		  zoom: 6.85
+		  center: [-82.669, 40.206],
+		  zoom: 6.1
 		});
 
 		/* DATA GOES HERE */
 		var boxes
-		const url = "https://bennkeel.github.io/OhioElections/OH-BOE-Locations.geojson";
-
+		const url = "https://bennkeel.github.io/OhioElections/BoE-Locations-OH.geojson";
+ 
 		const updateUISuccess = function(data) {
 			const parsedData = JSON.parse(data);
 			console.log(parsedData);
@@ -246,11 +247,13 @@
 				/* Add the data to your map as a layer */
 				map.addSource('places', {
 				"type": 'geojson',
-				"data": "https://bennkeel.github.io/OhioElections/OH-BOE-Locations.geojson"
+				"data": "https://bennkeel.github.io/OhioElections/OH-BoE.geojson"
 				});
 				buildLocationList(boxes);
 				addMarkers();
 			});
+
+			map.addControl(new mapboxgl.NavigationControl());
 
 				function addMarkers() {
 				/* For each feature in the GeoJSON object above: */
@@ -271,18 +274,20 @@
 					.addTo(map);
 
 					el.addEventListener('click', function(e){
-					/* Fly to the point */
-					flyToBox(marker);
-					/* Close all other popups and display popup for clicked box */
-					createPopUp(marker);
-					/* Highlight listing in sidebar */
-					var activeItem = document.getElementsByClassName('active');
-					e.stopPropagation();
-					if (activeItem[0]) {
-						activeItem[0].classList.remove('active');
-					}
-					var listing = document.getElementById('listing-' + marker.properties.id);
-					listing.classList.add('active');
+						/* Fly to the point */
+						flyToBox(marker);
+						/* Close all other popups and display popup for clicked box */
+						createPopUp(marker);
+						/* Highlight listing in sidebar */
+						var activeItem = document.getElementsByClassName('active');
+						//e.stopPropagation();
+						if (activeItem[0]) {
+							activeItem[0].classList.remove('active');
+						}
+						var listing = document.getElementById('listing-' + marker.properties.id);
+						listing.classList.add('active');
+						listing.scrollIntoView({behavior: "smooth", block: "start"});
+						addDropbox(listing, marker.properties.image);
 					});
 				});
 				}
@@ -323,27 +328,22 @@
 						details.innerHTML += ' · ' + prop.phone;
 						} */
 
-						link.addEventListener('click', function(e){
+						link.addEventListener('click', function(e){							
 							for (var i=0; i < data.features.length; i++) {
 								if (this.id === "link-" + data.features[i].properties.id) {
 									var clickedListing = data.features[i];
 									flyToBox(clickedListing);
 									createPopUp(clickedListing);
-									console.log(clickedListing)
-									//addListingDetails(clickedListing);
+									console.log(clickedListing);
+									addDropbox(details, prop.image);									
 								}
 							}
-
-							if (prop.image) {
-								details.innerHTML += `<img src=${prop.image} alt="Dropbox Location Image">`;
-							}
-
+							
 							var activeItem = document.getElementsByClassName('active');
 							if (activeItem[0]) {
 								activeItem[0].classList.remove('active');
 							}
 							this.parentNode.classList.add('active');
-
 
 						});
 					});
@@ -374,11 +374,32 @@
 				}
 
 				function addListingDetails(currentFeature){
+					
 					var scroll = 
 					$('html, body').animate({
     					scrollTop: $().offset().top
 					}, 1000);
 				}
+
+				function img_create(src, alt, title, id) {
+					var img = document.createElement('img');
+					img.src = src;
+					if ( alt != null ) img.alt = alt;
+					if ( title != null ) img.title = title;
+					if (id != null ) img.id = id;
+ 					return img;
+				}
+
+				function addDropbox(element, img){
+					var dropboxImage = document.getElementById("db");
+					if (dropboxImage){
+						dropboxImage.remove();
+					}
+					if (img) {
+						element.appendChild(img_create(img, "Dropbox Location Image", "Dropbox", "db"));
+					}
+				}
+
 		};
 
 		const updateUIError = function(error) {
