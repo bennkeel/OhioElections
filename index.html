@@ -298,7 +298,12 @@
 						var listing = document.getElementById('listing-' + marker.properties.id);
 						listing.classList.add('active');
 						listing.scrollIntoView({behavior: "smooth", block: "start"});
-						addDropbox(listing, marker.properties.image);
+						if (marker.properties.source) {
+							addDropbox(listing, marker.properties.image, marker.properties.source);
+						} else {
+							addDropbox(listing, marker.properties.image);
+						}
+
 					});
 				});
 				}
@@ -346,7 +351,11 @@
 									flyToBox(clickedListing);
 									createPopUp(clickedListing);
 									console.log(clickedListing);
-									addDropbox(details, prop.image);									
+									if (prop.source){
+										addDropbox(details, prop.image, prop.source);								
+									} else {
+										addDropbox(details, prop.image);									
+									}
 								}
 							}
 							
@@ -401,13 +410,22 @@
  					return img;
 				}
 
-				function addDropbox(element, img){
+				function addDropbox(element, img, source){
 					var dropboxImage = document.getElementById("db");
+					var dropboxSource = document.getElementById("dbSource");
 					if (dropboxImage){
 						dropboxImage.remove();
+						dropboxSource.remove();
 					}
 					if (img) {
 						element.appendChild(img_create(img, "Dropbox Location Image", "Dropbox", "db"));
+					}
+					if (source) {
+						var s = document.createElement('a')
+						s.href = `${source}`;
+						s.id = "dbSource"
+						s.innerHTML = "Source";
+						element.appendChild(document.createElement('a'));
 					}
 				}
 
